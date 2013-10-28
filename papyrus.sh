@@ -1,8 +1,9 @@
 #!/bin/sh
 
-CALWEEK='KW 42'
-STARTMONTH=10
-STARTYEAR=2013
+CW=$(date +%V)
+CALWEEK='KW '$CW
+STARTMONTH=$(date +%m)
+STARTYEAR=$(date +%Y)
 
 
 
